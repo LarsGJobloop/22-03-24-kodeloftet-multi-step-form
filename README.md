@@ -1,3 +1,3 @@
-# 22-03-24-kodeloftet-multi-step-form
+# Multi Step Form
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/LarsGJobloop/22-03-24-kodeloftet-multi-step-form)
+Some advanced HTML and CSS techniques for setting up a multi step form.
