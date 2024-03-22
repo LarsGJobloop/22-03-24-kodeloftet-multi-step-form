@@ -1,0 +1,84 @@
+.website {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 100% view height*/
+  margin: 0px;
+}
+
+.navbar {
+  background-color: cornflowerblue;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+.footer {
+  background-color: cornflowerblue;
+}
+
+.hero {
+  height: 90vh;
+  background-image: url(https://images.unsplash.com/photo-1707344088547-3cf7cea5ca49?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 1fr auto 1fr;
+}
+
+.hero > * {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+/* Styling for Multi-step form */
+.mulit-step-form-page {
+  display: none;
+}
+
+.current-page-1 .page-1 {
+  display: block;
+}
+.current-page-1 .button-1 {
+  background-color: rgb(106, 155, 219);
+  color: rgb(1, 1, 120);
+}
+
+.current-page-2 .page-2 {
+  display: block;
+}
+.current-page-2 .button-2 {
+  background-color: rgb(106, 155, 219);
+  color: rgb(1, 1, 120);
+}
+
+.current-page-3 .page-3 {
+  display: block;
+}
+.current-page-3 .button-3 {
+  background-color: rgb(106, 155, 219);
+  color: rgb(1, 1, 120);
+}
+
+.current-page-4 .page-4 {
+  display: block;
+}
+.current-page-4 .button-4 {
+  background-color: rgb(106, 155, 219);
+  color: rgb(1, 1, 120);
+}
+
+/* Styling for navigasjons menyen */
+
+.navigation-menu {}
+
+/* Styling for page 1 */
+.page-1 {}
+
+/* Styling for page 2 */
+.page-2 {}
+
+/* Styling for page 3 */
+.page-3 {}
+
+/* Styling for page 4 */
+.page-4 {}
